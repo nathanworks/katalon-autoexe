@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E2E-Login-Incorrect</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7faf946-9850-41b9-a7b3-fe7d6157bf6e</testCaseGuid>
+</TestCaseEntity>
