@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>&lt;p style=&quot;color: red;&quot;>Your email or password is incorrect!&lt;/p></value>
+         <value>//p[contains(text(),'Your email or password is incorrect!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

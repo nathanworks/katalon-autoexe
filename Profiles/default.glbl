@@ -39,4 +39,9 @@
       <initValue>''</initValue>
       <name>global_xpassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>global_incorrect</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Signup  Login (1)</name>
+   <name>btn_SignupOrLogin</name>
    <tag></tag>
    <elementGuidId>3f417b53-9254-4f13-876b-63a2b6ee6b30</elementGuidId>
    <selectorCollection>

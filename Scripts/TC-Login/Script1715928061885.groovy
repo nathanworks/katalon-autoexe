@@ -17,10 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Sign_Up/a_Signup  Login (1)'))
+def incorrect = GlobalVariable.global_incorrect
+def email = ""
+def pass = ""
 
-//WebUI.click(findTestObject('Object Repository/Sign_Up/a_Logout'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Sign_Up/btn_SignupOrLogin'), 10)
+WebUI.click(findTestObject('Object Repository/Sign_Up/btn_SignupOrLogin'))
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Login/field_email'), 10)
 WebUI.click(findTestObject('Object Repository/Login/field_email'))
 
 if(incorrect == 0)
@@ -45,6 +49,6 @@ WebUI.click(findTestObject('Object Repository/Sign_Up/button_Login'))
 if(incorrect == 0)
 	
 {
-	WebUI.verifyElementPresent('Object Repository/Login/emsg_failed_login', 10)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Login/emsg_failed_login'), 10)
 }
 

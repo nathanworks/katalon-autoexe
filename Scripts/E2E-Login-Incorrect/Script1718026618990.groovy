@@ -17,10 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def incorrect = 0
-
 WebUI.callTestCase(findTestCase('Config'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('TC-Open-Web'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('TC-Login'),[('incorrect') : incorrect], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC-Login'),[('incorrect') : GlobalVariable.global_incorrect], FailureHandling.STOP_ON_FAILURE)

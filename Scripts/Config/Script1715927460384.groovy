@@ -24,3 +24,5 @@ GlobalVariable.global_password = 'test123'
 
 GlobalVariable.global_xemail = 'jo@gmail.com'
 GlobalVariable.global_xpassword = '123'
+
+GlobalVariable.global_incorrect = 0
